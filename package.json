@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "node server sample",
+  "author": "Shiv Kushwaha",
+  "public": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "globby": "^8.0.1",
+    "morgan": "^1.9.0",
+    "sequelize": "^4.37.1",
+    "serve-favicon": "~2.4.5",
+    "sqlite3": "^4.0.0"
+  }
+}
